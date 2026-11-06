@@ -1,0 +1,100 @@
+.nav{
+    display:flex;
+    background-color: #66056f;
+     justify-content: space-around; 
+    width: 100%;
+    height: 50px;
+    font-size: 23px;
+     padding-top: 20px;
+}
+.portfolio a{
+    text-decoration: none;
+    color: white;
+    justify-content:right;
+  
+}
+
+#me{
+    color: blue;
+    
+}
+#home{
+    background-color: #76c4f4;
+    text-align:center;
+}
+#skills{
+    background-color: yellow;
+    main-axis: center;
+    color:red;
+    text-align:center;
+    justify-content: space-around;
+}
+.sun{
+    background-color:white;
+    display: flex;
+    text-align:center;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    display: inline-block;
+    color: black;
+    
+   
+    margin:" 10px";
+    width:"150px";
+}
+.edu{
+    background-color: grey;
+    text-align:center;
+    color: black;
+    padding: 10px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+    width: 800px;
+  
+}
+#education{
+    text-align:center;
+}
+#projects{
+    background-color: #61ce2f;
+   
+    
+}
+#projects
+-heading{
+    color:rgb(4, 48, 4);
+    justify-content: center;
+    
+}
+.project{
+    background-color:rgb(224, 244, 217);
+    display: flex;
+    text-align:center;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    display: inline-block;
+    color: black;
+    justify-content: center;
+     margin-left: 70px;
+   
+    margin:" 10px;"
+    width:"150px";
+    
+}
+h4{
+    color: rgb(3, 88, 3);
+}
+#projects-heading{
+    text-align:center;
+    color:rgb(0, 21, 0);
+}
+#contact{
+    color:#66056f;
+    text-align:center;
+}
+#foot{
+    text-align:center;
+    background-color: rgba(197, 79, 207,0.5);
+}

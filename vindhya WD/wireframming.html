@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wireframe Webpage</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+            color: #333;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid gray;
+            padding: 15px;
+        }
+
+        nav a {
+            margin: 10px;
+            text-decoration: none;
+            color: black;
+        }
+
+        button {
+            padding: 8px 15px;
+            background: white;
+            border: 1px solid gray;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 40px;
+            border: 1px solid gray;
+        }
+
+        .services {
+            text-align: center;
+            border: 1px solid gray;
+            padding: 20px;
+        }
+
+        .service-box {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .image {
+            width: 150px;
+            height: 100px;
+            border: 1px solid gray;
+            background:
+                linear-gradient(35deg, transparent 49%, gray 50%, transparent 51%),
+                linear-gradient(-35deg, transparent 49%, gray 50%, transparent 51%);
+        }
+
+        .two-column {
+            display: flex;
+            border: 1px solid gray;
+            padding: 20px;
+            gap: 30px;
+        }
+
+        .two-column div {
+            width: 50%;
+        }
+
+        .about {
+            display: flex;
+            border: 1px solid gray;
+            padding: 20px;
+        }
+
+        .map {
+            background: #eee;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .contact {
+            text-align: center;
+            border: 1px solid gray;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <b>LOGO</b>
+
+        <nav>
+            <a href="#about">ABOUT</a>
+            <a href="#services">SERVICES</a>
+            <a href="#contact">CONTACT</a>
+            <button>CONTACT</button>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>HEADLINE</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+        <button>GET STARTED</button>
+    </div>
+
+    <div class="services" id="services">
+        <h2>OUR SERVICES</h2>
+
+        <div class="service-box">
+            <div>
+                <div class="image"></div>
+                <p>────────────</p>
+                <p>────────────</p>
+            </div>
+
+            <div>
+                <div class="image"></div>
+                <p>────────────</p>
+                <p>────────────</p>
+            </div>
+
+            <div>
+                <div class="image"></div>
+                <p>────────────</p>
+                <p>────────────</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="two-column">
+        <div>
+            <div class="image"></div>
+        </div>
+
+        <div>
+            <p>━━━━━━━━━━━━━━━━</p>
+            <p>━━━━━━━━━━━━━━━━</p>
+            <p>━━━━━━━━━━━━━━━━</p>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div>
+            <h2>ABOUT US</h2>
+            <p>━━━━━━━━━━━━━━━━</p>
+            <p>━━━━━━━━━━━━</p>
+        </div>
+
+        <div class="map">
+            <h2>📍</h2>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <h2>CONTACT US</h2>
+
+        <input type="email" placeholder="Enter your email">
+        <button>SEND</button>
+    </div>
+
+</body>
+</html>

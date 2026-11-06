@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Result</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #eeeeee;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Main container */
+        .container {
+            width: 800px;
+            margin: auto;
+            padding: 15px;
+            background-color: white;
+            border: 3px solid #777;
+            box-sizing: border-box;
+        }
+
+        /* Top heading */
+        .header {
+            height: 70px;
+            border: 2px solid #999;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 25px;
+            box-sizing: border-box;
+        }
+
+        .header h2 {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        .header span {
+            font-size: 18px;
+        }
+
+        /* Three boxes */
+        .top-boxes {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .box {
+            width: 30%;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border: 3px solid #aaa;
+            box-sizing: border-box;
+        }
+
+        .box1 {
+            background-color: #f5a900;
+            text-align: left;
+        }
+
+        .box2 {
+            background-color: #eeeeee;
+            border-radius: 30px;
+        }
+
+        .box3 {
+            background-color: #f2b58c;
+        }
+
+        /* Blue heading box */
+        .blue-title {
+            margin-top: 30px;
+            height: 100px;
+            background-color: #1874d1;
+            border: 3px solid #555;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Student information */
+        .student-section {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 25px;
+        }
+
+        .details {
+            width: 65%;
+            padding: 10px;
+        }
+
+        .details p {
+            font-size: 18px;
+            margin: 15px 0;
+        }
+
+        /* Photo box */
+        .photo {
+            width: 25%;
+            height: 130px;
+            background-color: #318ce7;
+            border: 3px solid #555;
+            border-radius: 25px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* Result title */
+        .result-title {
+            margin-top: 20px;
+            height: 65px;
+            border: 3px solid #999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* Bottom boxes */
+        .bottom-boxes {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .bottom {
+            width: 30%;
+            height: 120px;
+            border: 3px solid #777;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .green {
+            background-color: #00e639;
+        }
+
+        /* Responsive */
+        @media (max-width: 850px) {
+            .container {
+                width: 95%;
+            }
+
+            .top-boxes,
+            .bottom-boxes {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .box,
+            .bottom {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <div class="header">
+            <h2>COLLEGE NAME</h2>
+            <!-- <span>REG NO: 100</span> -->
+           
+        <br>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj4EWgMJ9Elv8gho7cyDBnZtbElRUXPm4UJQ26B_qwV-NVtmrvshJeTr14&s=10" alt="NRI Logo" style="float: left; margin-left: 10px; height: 60px; width: 60px; border-radius: 50%;">
+              
+        </div>
+
+        <!-- Three top boxes -->
+        <div class="top-boxes">
+
+            <div class="box box1">
+        
+        •HTML<br>
+        •CSS<br>
+        •JavaScript<br>
+        •Bootstrap<br>
+            </div>
+
+            <div class="box box2">
+                <div>
+                    <h3>COLLEGE RESULT</h3>
+                    <p>Academic Details</p>
+                </div>
+            </div>
+
+            <div class="box box3">
+                <div>
+                    <h3>ACADEMIC</h3>
+                    <p>Information</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Blue title -->
+        <div class="blue-title">
+            Education Information
+        </div>
+
+        <!-- Student details -->
+        <div class="student-section">
+
+            <div class="details">
+                <p><b>Name:</b> Student Name</p>
+                <p><b>ID No:</b> 123456</p>
+                <p><b>Course:</b> B.Tech Computer Science</p>
+            </div>
+
+            <div class="photo">
+                Student<br>Photo
+            </div>
+
+        </div>
+
+        <!-- Result heading -->
+        <div class="result-title">
+            INTERMEDIATE / UNIVERSITY DETAILS
+        </div>
+
+        <!-- Bottom boxes -->
+        <div class="bottom-boxes">
+
+            <div class="bottom">
+                <div>
+                    <b>MARKS</b>
+                    <br><br>
+                    Subject 01
+                </div>
+            </div>
+
+            <div class="bottom">
+                <div>
+                    <b>MARKS</b>
+                    <br><br>
+                    Subject 02
+                </div>
+            </div>
+
+            <div class="bottom green">
+                <div>
+                    <b>RESULT</b>
+                    <br><br>
+                    PASS
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+h1{
+    font-family: cursive;
+    text-align: center;
+    color:rgb(3, 3, 66);
+}
+.japan{
+    height:270px;
+    width:600px;
+    border:2px solid rgb(2, 2, 26);
+    margin-left: 500px;
+    
+}
+h2{
+    color:rgb(4, 4, 89);
+    font-family: cursive;
+   
+}
+#toor{
+     margin-left:500px;
+    
+}
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/011/826/370/large_2x/maldives-islands-ocean-tropical-beach-exotic-sea-lagoon-palm-trees-over-white-sand-idyllic-nature-landscape-amazing-beach-scenic-shore-bright-tropical-summer-sun-and-blue-sky-with-light-clouds-photo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.textarea{
+    background-color: white;
+    margin:90px;
+}   

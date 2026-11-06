@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS box model</title>
+    <style>
+       
+        .box0{
+            width: 98%;
+            height: 100px;           
+            text-align: left;
+            font-size: 20px;         
+            color: blue;
+            border: 2px solid black;
+            padding: 10px;
+  
+        }
+        #nri{
+            color: red;
+            font-size: 27px;
+            text-align: right;
+            padding-right: 20px;         
+        }
+        .container{
+            display: flex;
+             justify-content: space-between; 
+            align-items: flex-start;
+            margin-top: 20px;
+           margin: 100px 50px;
+        }
+        .skills{
+            width: 150px;
+            height: 150px;
+            background-color: rgb(239, 217, 54);
+            padding: 20px;
+            /* text-align:center; */
+             justify-content: left;
+            margin: 20px;            
+        }
+        .achievements{
+            width: 300px;
+            height: 150px;
+            background-color: rgba(121, 182, 210, 0.8);
+            border: 2px solid rgb(14, 4, 57);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+        }
+        .Additional_info{
+            width: 300px;
+            height: 100px;
+            background-color: rgba(239, 197, 60, 0.8);
+            border: 2px solid rgb(219, 174, 38);           
+            padding: 20px;
+            margin: 20px;
+        }
+        .me{
+            width: 150px;
+            height: 150px;
+           
+            border-radius: 20px;
+            margin-top: 20px;
+            border: 2px solid rgb(14, 4, 57);
+            position: right;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="box0">Dr.RVR NRI UNIVERSITY 
+        <br>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj4EWgMJ9Elv8gho7cyDBnZtbElRUXPm4UJQ26B_qwV-NVtmrvshJeTr14&s=10" alt="NRI Logo" style="float: left; margin-left: 10px; height: 60px; width: 60px; border-radius: 50%;">
+               <div id="nri">NRI</div>
+    </div>
+    <div class="container">
+     <div class="skills">
+        <!-- <h2>Skills</h2><br> -->
+        •HTML<br>
+        •CSS<br>
+        •JavaScript<br>
+        •Bootstrap<br>
+        •React<br>
+        •Node.js<br>
+        •Express.js<br> 
+       </div>
+       <div class="achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li>Won first prize in coding competition</li>
+            <li>Published research paper in international journal</li>
+            <!-- <li>Completed internship at XYZ company</li>
+            <li>Volunteered for community service projects</li> -->
+        </ul>
+       </div>
+       <div class="Additional_info">
+        contact: 123-456-7890<br>
+        email:unpredictablestudent@outlook.com
+        instagram: @unpredictablestudent<br>
+        linkedin: linkedin.com/in/unpredictablestudent<br>
+       </div>
+    </div>
+    <div class="education">
+        <img src="https://img.magnific.com/free-vector/education-horizontal-typography-banner-set-with-learning-knowledge-symbols-flat-illustration_1284-29493.jpg?w=360" alt="Education" style="width: 99%; height: 100px;">
+    </div>
+    <br>
+    <br>
+    <div>
+        NAME:VINDHYA <br>
+        BRANCH: CSE <br>
+        ROLL NO: 26000240<br>
+        <div class="me">
+            <img src="vindhyapic.jpeg" alt="Vindhya" style="width: 100%; height: 100%; border-radius: 20px;">
+        </div>
+    </div>
+    
+</body>
+</html>

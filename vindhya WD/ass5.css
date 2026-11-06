@@ -1,0 +1,221 @@
+
+/* Basic Settings */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 25px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #41c1db, #0e3bc1, #110362);
+}
+
+/* Outer Box */
+.out {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+/* College Header */
+.nri {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    padding: 15px 25px;
+    margin-bottom: 30px;
+}
+
+.college-name h2 {
+    margin: 0;
+    color: #536878;
+    font-size: 23px;
+}
+
+.college-name p {
+    margin-bottom: 0;
+    color: #649bb5;
+}
+
+.logo {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Three Information Boxes */
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+    margin: 30px 5px;
+}
+
+.box {
+    flex: 1;
+    min-width: 0;
+    min-height: 190px;
+    padding: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-wrap: anywhere;
+}
+
+.box h2 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.box p {
+    font-size: 15px;
+    line-height: 1.8;
+    margin: 0;
+}
+
+/* Skills Box */
+.skills {
+    background-color: #ffb900;
+    border: 2px solid #e6a000;
+}
+
+/* Achievements Box */
+.achievements {
+    background-color: #e8e8e8;
+    border: 2px solid #628ba5;
+    border-radius: 35px;
+    color: #173c70;
+}
+
+/* Additional Information Box */
+.additional {
+    background-color: #ffccb5;
+    border: 2px solid #a8c98d;
+    color: #173c70;
+}
+
+.additional a {
+    color: #174b91;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.additional a:hover {
+    text-decoration: underline;
+}
+
+/* Education Section */
+.mid {
+    min-height: 140px;
+    margin: 20px 5px;
+    padding: 15px;
+    background-color: #429ed5;
+    border: 2px solid #477f9c;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mid h2 {
+    margin: 0 0 10px;
+}
+
+.mid p {
+    margin: 4px;
+}
+
+/* Student Profile */
+.center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.text h2 {
+    font-size: 21px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.text p {
+    color: #555555;
+    line-height: 1.6;
+}
+
+.imgg {
+    width: 190px;
+    height: 190px;
+    border: 2px solid #477f9c;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+/* Interested Professions Heading */
+.profession-title {
+    margin: 15px 5px;
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: normal;
+    background-color: #e8e8e8;
+    border: 2px solid #628ba5;
+    color: #333333;
+}
+
+/* Profession Cards */
+.professions {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 15px 5px 5px;
+}
+
+.profession {
+    flex: 1;
+    min-width: 0;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid #628ba5;
+    background-color: #eeeeee;
+}
+
+.profession-image {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.profession h3 {
+    color: #477f9c;
+    font-size: 17px;
+}
+
+.profession p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.web {
+    border-color: #c77942;
+}
+
+.software {
+    border-color: #477f9c;
+}
+
+.ai {
+    border-color: #8b55a1;
+    background-color: #e4f3dc;
+}
+
+

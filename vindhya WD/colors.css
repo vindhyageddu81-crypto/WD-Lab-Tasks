@@ -1,0 +1,22 @@
+*{
+background-color: hsl(29, 100%, 95%);
+
+}
+
+
+.Greeting{
+color: white;
+background-color:rgb(239 109 16);
+text-align:center;
+
+}
+.info{
+color:#1f2254;
+text-align:center;
+}
+#about_us{
+border:2px solid green;
+padding:40;
+background-color:rgba(255, 230, 255);
+color: hsla(240, 100%, 5%,0.8);
+}

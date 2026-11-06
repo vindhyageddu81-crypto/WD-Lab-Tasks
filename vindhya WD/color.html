@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+  body{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtVHEsW3_Fds59HH7RUbDnPl4XRVV02od2v1sZbOZWPA&s=1024");
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+
+  h1{
+    text-shadow: 2px 2px 5px red , 4px 4px 10px blue;
+    text-align: center;
+  } 
+  #container{
+    display:flex;
+  }
+  .box{
+    width:200px;
+    height:80px;
+    border:3px inset rgb(9, 9, 143);
+    padding:20px 50px 40px 40px;
+    margin:10px;
+    overflow-wrap: break-word;
+    border-radius: 10px;
+  }
+  .box1{
+   background-image: linear-gradient(white,aqua,rgb(4, 4, 110));
+   box-shadow: 10px 10px 5px rgb(4, 10, 126);
+  }
+.box2{
+     background-image: linear-gradient(to left,rgb(77, 236, 29) 10%,aqua 50%,rgb(4, 4, 110) );
+}
+.box3{
+  background-image: repeating-linear-gradient(yellow ,orange 20%,red 10%) ;
+}
+.box4{
+    background-image:radial-gradient(red,orange,yellow);
+}
+.box5{
+       background-image:radial-gradient(circle,red,orange,green);
+}
+.box6{
+
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/b/bd/Doraemon_character.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=originalmediafile"),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8d6LzfFPoTipxsczadATnt8dLe_075j3_zYO-U0rglsuUmTytU1kAnyA&s=1024");
+  background-size: 50% 100%, 50% 100%;
+  /* backgroung-size:width hight,width height*/
+  background-repeat: no-repeat, no-repeat;
+  background-position: right bottom, left bottom;
+  background-blend-mode: multiply, normal;
+  box-shadow: 10px 10px 5px rgb(70, 33, 195);
+  opacity: 0.5;
+
+}
+.box7{
+    /* background-image:radial-gradient(circle,red,orange,green); */
+    background-image: url("https://freshknots.in/wp-content/uploads/2024/07/BlushingHarmony1-540x540.jpg");
+    background-size: cover;
+    box-shadow: 10px 10px 5px rgb(247, 53, 170);
+}
+    
+.box8{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtVHEsW3_Fds59HH7RUbDnPl4XRVV02od2v1sZbOZWPA&s=1024"),url("https://freshknots.in/wp-content/uploads/2024/07/BlushingHarmony1-540x540.jpg") ;
+  background-size: cover;
+  background-position: center, right bottom;
+  background-blend-mode: multiply,multiply;
+  background-repeat: no-repeat, no-repeat; 
+  box-shadow: 10px 10px 5px rgb(240, 54, 162);
+  background-color: yellow;
+}   
+</style>    
+</head>
+<body>
+  <br>
+  <br>
+  <br>
+    <h1>Text Shadow</h1>
+    <br><br>
+    <hr></hr>
+    <br>
+    <br>
+
+    <div id="container">
+    <div class="box box1" >
+    welcome to my world!!! where you can learn webdevelopement, python, java, most popular genAI Tools and many more...
+    </div>
+    <div class= "box box2">Early bird offer is upto october 21 2026 so join our batch Early to ger 50% discount!!1 </div>
+    <div class="box box3">If you star early then we'll make you a certified AI tool expert .</div>
+      <div class="box box4" >
+    welcome to my world!!! where you can learn webdevelopement, python, java, most popular genAI Tools and many more...
+    </div>
+</div>
+
+<div id="container">
+    <div class="box box5" >
+    welcome to my world!!! where you can learn webdevelopement, python, java, most popular genAI Tools and many more...
+    </div>
+    <div class= "box box6">Early bird offer is upto october 21 2026 so join our batch Early to ger 50% discount!!1 </div>
+    <div class="box box7">early bird offer is upto october </div>
+      <div class="box box8" >
+    welcome to my world!!! where you can learn webdevelopement, python, java, most popular genAI Tools and many more...
+    </div>
+</div>
+</body>
+</html>
